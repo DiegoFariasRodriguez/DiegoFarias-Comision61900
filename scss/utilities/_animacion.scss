@@ -1,0 +1,16 @@
+main.transformaciones {
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+        border: 2px solid red;
+        margin: 28px 18px;
+        padding: 38px;
+        width: fit-content;
+
+        img {
+            width: 200px;
+            clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+        }
+    }
+}

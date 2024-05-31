@@ -1,0 +1,14 @@
+/*media queries  Medidas o breakpoints
+📏MOBILE : Entre 320px y 768px
+📏TABLET: Entre 769px y 1024px
+📏DESKTOP: 1025px y 1200px */
+
+@media screen and (max-width: 1024px) {
+    /*aca va el grid que quiero que se vea en tablet*/
+}
+
+@media screen and (max-width: 768px) {}
+
+/* raw-gap : espacio entre filas en px */
+
+@media screen and (max-width: 319px) {}

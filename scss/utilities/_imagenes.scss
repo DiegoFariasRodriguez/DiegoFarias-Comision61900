@@ -1,0 +1,48 @@
+.imagenesredes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px black;
+    width: 10%;
+    background-color: rgb(191, 224, 213);
+    height: 100%;
+}
+
+.imagenesredes1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+    flex-flow: row wrap;
+}
+
+.imagenestrabajos {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    object-fit: cover;
+    border: 5px border rebeccapurple;
+}
+
+.imgtrabajos {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    object-fit: cover;
+    border: 5px border rebeccapurple;
+
+}
+
+.otrocolor {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: cover;
+    border: 5px border rebeccapurple;
+}
+
+img {
+    width: 35%;
+}

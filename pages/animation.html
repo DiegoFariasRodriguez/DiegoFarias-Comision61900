@@ -6,19 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Document</title>
+    <style>
+        @keyframes efecto_img {
+            0% {
+                transform: scale(0, 0);
+            }
+
+            25% {
+                transform: scale(2, 2);
+            }
+
+            50% {
+                transform: (3, 3);
+            }
+
+            75% {
+                transform: (2, 2);
+            }
+
+            100% {
+                transform: (1, 1);
+            }
+        }
+
+        img {
+            width: 400px;
+            height: 400px;
+            
+            animation-name: efecto_img;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-duration: 3s;
+
+        }
+    </style>
 </head>
 
 <body>
     <H1>Animacion de pruba</H1>
-
-    <main>
-        <div class="transformaciones">
-            <img src="../images/Cortina1.jpeg" alt="Black out">
-            <img src="../images/Cortina2.jpeg" alt="Black out oficina">
-            <img src="../images/Cortina3.jpeg" alt="oficina">
-            <img src="../images/Cortina5.jpeg" alt="screen">
-        </div>
-    </main>
+    <section><img src="/images/Cortina1.jpeg" alt="Cortina1"></section>
 
 </body>
 

@@ -45,9 +45,6 @@ p {
     font-size: medium;
 }
 
-img {
-    width: 35%;
-}
 
 /* rem es relativo al tamaño del elemento root*/
 
@@ -101,52 +98,6 @@ nav ul li a {
     font-family: "Roboto", sans-serif;
 }
 
-.imgtrabajos {
-    flex-flow: row wrap;
-    display: flex;
-    justify-content: space-evenly;
-    width: 80%;
-    object-fit: cover;
-    border: 5px border rebeccapurple;
-
-}
-
-.otrocolor {
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    object-fit: cover;
-    border: 5px border rebeccapurple;
-}
-
-
-
-.imagenesredes {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border: 1px black;
-    width: 50%;
-    background-color: rgb(191, 224, 213);
-    height: 300%;
-}
-
-.imagenesredes1 {
-    display: flex;
-    justify-content: space-evenly;
-    width: 35%;
-    flex-flow: row wrap;
-}
-
-.imagenestrabajos {
-    flex-flow: row wrap;
-    display: flex;
-    justify-content: space-evenly;
-    width: 80%;
-    object-fit: cover;
-    border: 5px border rebeccapurple;
-}
 
 .video {
     display: flex;
@@ -159,7 +110,6 @@ nav ul li a {
 }
 
 
-
 .selectorcontacto {
     font: size 60px;
 }
@@ -168,18 +118,3 @@ h4 {
     color: blueviolet;
     font-size: 50px;
 }
-
-/*media queries  Medidas o breakpoints
-📏MOBILE : Entre 320px y 768px
-📏TABLET: Entre 769px y 1024px
-📏DESKTOP: 1025px y 1200px */
-
-@media screen and (max-width: 1024px) {
-    /*aca va el grid que quiero que se vea en tablet*/
-}
-
-@media screen and (max-width: 768px) {}
-
-/* raw-gap : espacio entre filas en px */
-
-@media screen and (max-width: 319px) {}

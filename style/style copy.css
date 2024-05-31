@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    color: rgb(12, 13, 17);
+}
+
+h4 {
+    color: blue;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    color: blue;
+}
+
+nav ul {
+    list-style-type: none;
+    color: chartreuse;
+}
+
+section ol {
+    list-style-type: circle;
+}
+
+/* unideades de medidas absolutas*/
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 20px;
+}
+
+p {
+    font-size: medium;
+}
+
+img {
+    width: 35%;
+}
+
+/* rem es relativo al tamaño del elemento root*/
+
+nav ul {
+    font-size: 1rem;
+}
+
+
+footer {
+    font-size: 30px;
+}
+
+.colorfondo {
+    background-color: aquamarine;
+    font-family: "Roboto", sans-serif;
+    padding: 2%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    border: 3% solid rgb(219, 36, 36);
+    text-align: center;
+    margin-bottom: 0%;
+
+}
+
+.colorfondo1 {
+    background-color: rgb(197, 85, 197);
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+nav ul li a {
+    font-size: 150%;
+}
+
+.listaservi {
+    color: forestgreen;
+    font-size: 150%;
+}
+
+.btn {
+    position: sticky;
+    top: 0%;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+}
+
+.imgtrabajos {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    object-fit: cover;
+    border: 5px border rebeccapurple;
+
+}
+
+.otrocolor {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: cover;
+    border: 5px border rebeccapurple;
+}
+
+
+
+.imagenesredes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px black;
+    width: 50%;
+    background-color: rgb(191, 224, 213);
+    height: 300%;
+}
+
+.imagenesredes1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+    flex-flow: row wrap;
+}
+
+.imagenestrabajos {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    object-fit: cover;
+    border: 5px border rebeccapurple;
+}
+
+.video {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.mapa {
+    display: flex;
+    justify-content: space-evenly
+}
+
+
+
+.selectorcontacto {
+    font: size 60px;
+}
+
+h4 {
+    color: blueviolet;
+    font-size: 50px;
+}
+
+/*media queries  Medidas o breakpoints
+📏MOBILE : Entre 320px y 768px
+📏TABLET: Entre 769px y 1024px
+📏DESKTOP: 1025px y 1200px */
+
+@media screen and (max-width: 1024px) {
+    /*aca va el grid que quiero que se vea en tablet*/
+}
+
+@media screen and (max-width: 768px) {}
+
+/* raw-gap : espacio entre filas en px */
+
+@media screen and (max-width: 319px) {}

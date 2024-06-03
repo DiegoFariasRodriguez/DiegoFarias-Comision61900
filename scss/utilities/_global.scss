@@ -6,9 +6,6 @@
     margin: 0;
 }
 
-h2 {
-    color: rgb(12, 13, 17);
-}
 
 h4 {
     color: blue;
@@ -16,6 +13,7 @@ h4 {
 
 p {
     font-family: "Roboto", sans-serif;
+    font-size: medium;
 }
 
 ul {
@@ -31,7 +29,7 @@ section ol {
     list-style-type: circle;
 }
 
-/* unideades de medidas absolutas*/
+
 h1 {
     font-size: 50px;
 }
@@ -39,42 +37,22 @@ h1 {
 h2 {
     font-size: 30px;
     margin: 20px;
+    color: rgb(12, 13, 17);
 }
 
-p {
-    font-size: medium;
+h4 {
+    color: blueviolet;
+    font-size: 50px;
 }
-
-
-/* rem es relativo al tamaño del elemento root*/
 
 nav ul {
     font-size: 1rem;
 }
 
-
 footer {
     font-size: 30px;
 }
 
-.colorfondo {
-    background-color: aquamarine;
-    font-family: "Roboto", sans-serif;
-    padding: 2%;
-    margin-top: 1%;
-    margin-bottom: 10%;
-    border: 3% solid rgb(219, 36, 36);
-    text-align: center;
-    margin-bottom: 0%;
-
-}
-
-.colorfondo1 {
-    background-color: rgb(197, 85, 197);
-    text-align: center;
-    padding: 2%;
-    margin-bottom: 5%;
-}
 
 
 nav ul li a {
@@ -101,37 +79,18 @@ nav ul li a {
 
 .video {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .mapa {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
-
 
 .selectorcontacto {
-    font: size 60px;
+    font-size: 60px;
 }
 
-h4 {
-    color: blueviolet;
-    font-size: 50px;
-}
 
-main.transformaciones {
-    display: flex;
-    flex-wrap: wrap;
 
-    div {
-        border: 2px solid red;
-        margin: 28px 18px;
-        padding: 38px;
-        width: fit-content;
 
-        img {
-            width: 200px;
-            clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
-        }
-    }
-}

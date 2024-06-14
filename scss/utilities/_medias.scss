@@ -1,11 +1,217 @@
-
 @media screen and (max-width: 1024px) {
- 
+    .imgtrabajos {
+        flex-flow: row wrap;
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        object-fit: cover;
+        border: 5px solid rebeccapurple;
+    }
+
+    .otrocolor {
+
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        object-fit: cover;
+        border: 5px border rebeccapurple;
+    }
+
+
+    .imagenesredes {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px black;
+        width: 50%;
+        background-color: rgb(191, 224, 213);
+        height: 300%;
+    }
+
+
+    .imagenesredes1 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 35%;
+        height: 100%;
+        flex-flow: row wrap;
+    }
+
+    .imagenestrabajos {
+        flex-flow: row wrap;
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        object-fit: cover;
+        border: 5px solid rebeccapurple;
+    }
+
+    img {
+        width: 35%;
+    }
+
+    .colorfondo {
+        background-color: aquamarine;
+        font-family: "Roboto", sans-serif;
+        padding: 2%;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        border: 3% solid rgb(219, 36, 36);
+        text-align: center;
+        margin-bottom: 0%;
+    }
+
+    .colorfondo1 {
+        background-color: rgb(197, 85, 197);
+        text-align: center;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
+    .imgtrabajos {
+        flex-flow: row wrap;
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        object-fit: cover;
+        border: 5px solid rebeccapurple;
+    }
+
+    .otrocolor {
+
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        object-fit: cover;
+        border: 5px border rebeccapurple;
+    }
+
+
+    .imagenesredes {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px black;
+        width: 50%;
+        background-color: rgb(191, 224, 213);
+        height: 300%;
+    }
+
+
+    .imagenesredes1 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 35%;
+        height: 100%;
+        flex-flow: row wrap;
+    }
+
+    .imagenestrabajos {
+        flex-flow: row wrap;
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        object-fit: cover;
+        border: 5px solid rebeccapurple;
+    }
+
+    img {
+        width: 35%;
+    }
+
+    .colorfondo {
+        background-color: aquamarine;
+        font-family: "Roboto", sans-serif;
+        padding: 2%;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        border: 3% solid rgb(219, 36, 36);
+        text-align: center;
+        margin-bottom: 0%;
+    }
+
+    .colorfondo1 {
+        background-color: rgb(197, 85, 197);
+        text-align: center;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
 }
 
 
 @media screen and (max-width: 319px) {
+    .imgtrabajos {
+        flex-flow: row wrap;
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        object-fit: cover;
+        border: 5px solid rebeccapurple;
+    }
+
+    .otrocolor {
+
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        object-fit: cover;
+        border: 5px border rebeccapurple;
+    }
+
+
+    .imagenesredes {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px black;
+        width: 50%;
+        background-color: rgb(191, 224, 213);
+        height: 300%;
+    }
+
+
+    .imagenesredes1 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 35%;
+        height: 100%;
+        flex-flow: row wrap;
+    }
+
+    .imagenestrabajos {
+        flex-flow: row wrap;
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        object-fit: cover;
+        border: 5px solid rebeccapurple;
+    }
+
+    img {
+        width: 35%;
+    }
+
+    .colorfondo {
+        background-color: aquamarine;
+        font-family: "Roboto", sans-serif;
+        padding: 2%;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        border: 3% solid rgb(219, 36, 36);
+        text-align: center;
+        margin-bottom: 0%;
+    }
+
+    .colorfondo1 {
+        background-color: rgb(197, 85, 197);
+        text-align: center;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
 }
